@@ -1,0 +1,119 @@
+#headliner{
+    text-align: center;
+    background-color: #404040;
+    color: whitesmoke;
+    padding: 15px;
+    
+}
+
+#search-menu{
+    margin: 10px;
+    border: solid gray;
+    border-width: thin;
+    border-radius: 10px;
+    background-color: #F0F0F0;
+    height: 600px;
+    padding: 5px;
+    width: 300px;
+    box-shadow: 0 0 5px black;
+}
+
+#data{
+    border: solid lightgray;
+    border-width: thin;
+    border-radius: 5px;
+    top:-600px;
+    left: 325px;
+    margin: 5px;
+    width: 870px;
+    height: 300px;
+    padding: 10px;
+    padding-left: -10px;
+}
+
+#foreCast_1{
+    position: relative;
+    top: 17px;
+    vertical-align: baseline;
+    background-color: #00BFFF;
+    width: 150px;
+    color: whitesmoke;
+    padding: 15px;
+    border: solid white;
+    border-width: thin;
+    border-radius: 5px;
+    box-shadow: 0 0 5px black;
+}
+
+#foreCast_2{
+    position: relative;
+    left: 170px;
+    top: -155px;
+    vertical-align: baseline;
+    background-color: #00BFFF;
+    width: 150px;
+    color: whitesmoke;
+    padding: 15px;
+    border: solid white;
+    border-width: thin;
+    border-radius: 5px;
+    box-shadow: 0 0 5px black;
+}
+#foreCast_3{
+    position: relative;
+    left: 340px;
+    top: -326px;
+    vertical-align: baseline;
+    background-color: #00BFFF;
+    width: 150px;
+    color: whitesmoke;
+    padding: 15px;
+    border: solid white;
+    border-width: thin;
+    border-radius: 5px;
+    box-shadow: 0 0 5px black;
+}
+#foreCast_4{
+    position: relative;
+    left: 510px;
+    top: -498px;
+    vertical-align: baseline;
+    background-color: #00BFFF;
+    width: 150px;
+    color: whitesmoke;
+    padding: 15px;
+    border: solid white;
+    border-width: thin;
+    border-radius: 5px;
+    box-shadow: 0 0 5px black;
+}
+#foreCast_5{
+    position: relative;
+    left: 680px;
+    top: -670px;
+    vertical-align: baseline;
+    background-color: #00BFFF;
+    width: 150px;
+    color: whitesmoke;
+    padding: 15px;
+    border: solid white;
+    border-width: thin;
+    border-radius: 5px;
+    box-shadow: 0 0 5px black;
+}
+#FD4C{
+    top: -580px;
+    right:-400px;
+    left: 350px;
+    text-decoration: underline;
+}
+#five4cast{
+    visibility: hidden;
+    
+    position: absolute;
+    left: 330px;
+    bottom: 100px;
+    height: 300px;
+    width: 1000px;
+
+}
