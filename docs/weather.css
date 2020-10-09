@@ -3,10 +3,11 @@
     background-color: #404040;
     color: whitesmoke;
     padding: 15px;
-    
+    width: 100%;
 }
 
 #search-menu{
+    display: block;
     margin: 10px;
     border: solid gray;
     border-width: thin;
@@ -19,6 +20,7 @@
 }
 
 #data{
+    display: block;
     border: solid lightgray;
     border-width: thin;
     border-radius: 5px;
@@ -33,7 +35,8 @@
 
 #foreCast_1{
     position: relative;
-    top: 17px;
+    top: 67px;
+    left: -233px;
     vertical-align: baseline;
     background-color: #00BFFF;
     width: 150px;
@@ -47,9 +50,10 @@
 
 #foreCast_2{
     position: relative;
-    left: 170px;
-    top: -155px;
-    vertical-align: baseline;
+    top: 68px;
+    left: -209px;
+    overflow: auto;
+    white-space: nowrap;
     background-color: #00BFFF;
     width: 150px;
     color: whitesmoke;
@@ -61,8 +65,10 @@
 }
 #foreCast_3{
     position: relative;
-    left: 340px;
-    top: -326px;
+    top: 69px;
+    left: -185px;
+    overflow: auto;
+    white-space: nowrap;
     vertical-align: baseline;
     background-color: #00BFFF;
     width: 150px;
@@ -73,10 +79,13 @@
     border-radius: 5px;
     box-shadow: 0 0 5px black;
 }
+
 #foreCast_4{
     position: relative;
-    left: 510px;
-    top: -498px;
+    top: 68px;
+    left: -159px;
+    overflow: auto;
+    white-space: nowrap;
     vertical-align: baseline;
     background-color: #00BFFF;
     width: 150px;
@@ -87,10 +96,13 @@
     border-radius: 5px;
     box-shadow: 0 0 5px black;
 }
+
 #foreCast_5{
-    position: relative;
-    left: 680px;
-    top: -670px;
+    position: absolute;
+    overflow: auto;
+    top: 67px;
+    left: 739px;
+    white-space: nowrap;
     vertical-align: baseline;
     background-color: #00BFFF;
     width: 150px;
@@ -108,12 +120,37 @@
     text-decoration: underline;
 }
 #five4cast{
-    visibility: hidden;
-    
     position: absolute;
-    left: 330px;
-    bottom: 100px;
-    height: 300px;
-    width: 1000px;
+    margin: 1%;
+    left: 22%;
+    bottom: 3%;
+    height: 36%;
+    width: 67%;
+    display: block;
+    overflow: auto;
+    white-space: nowrap;
+    display: flex;
+    align-items: baseline;
+}
 
+#button{
+    height: 64px;
+    width: 275px;
+    background-color: #F0F0F0;
+    font-size: 20px;
+    text-align: center;
+    border-left: #F0F0F0;
+    border-right: #F0F0F0;
+    border-bottom: #F0F0F0;
+    margin: 1px;
+    border-width: thin;
+    display: block;
+    margin-left: 5px;
+}
+
+#button:hover{
+    background-color: #F0F0F0;
+    box-shadow: 0px 1px 5px black;
+    font-weight: bold;
+    text-decoration: underline;
 }
