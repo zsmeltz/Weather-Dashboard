@@ -1,3 +1,5 @@
+
+
 var cityBtnDiv = $("#cityButtons");
 var data = $("#data");
 var icon = $("#icon");
@@ -7,7 +9,7 @@ var icon3 = $("#icon3");
 var icon4 = $("#icon4");
 var icon5 = $("#icon5");
 
-// localStorage.getItem();
+
 
 var lastCity = localStorage.getItem("lastCity");
 if(lastCity) {
@@ -23,8 +25,6 @@ function getWeather(cityName) {
 
     var city = response.city.name;
     localStorage.setItem("lastCity", city);
-    //console.log("I got here");
-    console.log(response);
     localStorage.setItem(cityName, response);
     
     var yourCity = $("#yourCity");
@@ -117,10 +117,4 @@ $("#searchBtn").on("click", function (e) {
     getWeather(cityName);
   });
 
-  
-
 });
-
-
-
-
